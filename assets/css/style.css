@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/*
+font-family: 'Playfair Display', serif;
+*/
+
+.page{
+  background: #FFF;
+  color: #AE7C78;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+  .container{
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+    .page__header{
+      border-width: 1px 0;
+      border-style: solid;
+      border-color: #AE7C78;
+      margin: 26px 0;
+    }
+      .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav_theme_white{
+        padding: 16px 0;
+      }
+        .nav__link{
+
+        }
